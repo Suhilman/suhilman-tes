@@ -35,7 +35,7 @@
                             <input type="number" class="form-control" name="notelpon" id="notelpon" value="{{$data->notelpon}}" aria-describedby="notelpon" placeholder="No. Telephone" required>
                         </div>
                         <div class="mb-3">
-                            <input type="file" class="form-control" name="foto" value="{{$data->foto}}">
+                            <input type="file" class="form-control" name="foto" value="{{$data->foto}}" required>
                         </div>
                         <button type="submit" class="btn btn-primary">SAVE</button>
                     </form>
